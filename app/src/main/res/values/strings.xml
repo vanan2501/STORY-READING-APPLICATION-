@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Comic Word</string>
+
+    // Login
+    <string name="text_login_app_name">Thế Giới Truyện Tranh</string>
+    <string name="text_login_logan">Chào mừng bạn đến với</string>
+    <string name="text_login_button">Đăng nhập</string>
+    // Repository message
+
+
+    //Top app bar text
+    // icon
+
+    <string name="favorite">Theo dõi</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="title">Trang chủ</string>
+    <string name="logout">Dăng xuất</string>
+    <string name="bookmark">Đánh dấu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    // Navigtion
+    // Sub top app bar
+    <string name="nav_title">Thế giới truyện tranh</string>
+    <string name="home_title">Trang chủ</string>
+    <string name="favorite_title">Yêu thích</string>
+    <string name="history_title">Lịch sử</string>
+    <string name="rating_title">Xếp hạng</string>
+    <string name="category_title">Thể loại</string>
+    // FirebaseUI Custom
+
+
+    /// Detail Story
+
+    //Appbar detail Sotry
+    <string name="text_title_appbar">Thông tin truyện</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    //Body detail story
+    <string name="btn_bookmark">Đang đọc</string>
+    <string name="btn_read_beging">Đọc từ đầu</string>
+
+    //tablouy detail story
+    <string name="text_tab_1">DANH SÁCH CHƯƠNG</string>
+    <string name="text_tab_2">GIỚI THIỆU</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_favorite_fragment">Truyện đã yêu thích</string>
+    <string name="title_category_fragment">Thể loại truyện</string>
+    <string name="title_history_fragment">Lịch sử truyện</string>
+    <string name="hello_blank_fragment">Hello fragment</string>
+
+    // bottom navigation
+    <string name="comment_text">Bình luận</string>
+    <string name="rating_text">Đánh giá</string>
+
+
+    ////admin
+    <string name="title_admin">Trang Admin</string>
+    <string name="admin_user">Quản lý người dùng</string>
+    <string name="admin_category">Quản lý danh mục truyện</string>
+    <string name="admin_story">Quản lý truyện</string>
+    <string name="admin_comment">Quản lý bình luận</string>
+    <string name="admin_rating">Quản lý đánh giá</string>
+    <string name="admin_logout">Đăng xuất</string>
+
+
+    <string-array name="user_roles">
+        <item>user</item>
+        <item>admin</item>
+    </string-array>
+
+    <string-array name="is_delete">
+        <item>hiện</item>
+        <item>ẩn</item>
+    </string-array>
+
+    <string-array name="story_type">
+        <item>chữ</item>
+        <item>hình</item>
+    </string-array>
+</resources>

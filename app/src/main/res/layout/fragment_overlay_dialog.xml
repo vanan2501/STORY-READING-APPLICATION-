@@ -1,0 +1,49 @@
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_gravity="center_horizontal"
+    >
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <!-- Mã HTML / View bạn muốn hiển thị trong lớp phủ, ví dụ EditText và nút thêm -->
+        <LinearLayout
+            android:id="@+id/linealayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lobster"
+                android:text="Tên danh mục :"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editTextCategoryName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:hint="Tên danh mục"
+                android:padding="16dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonAddCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linealayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Thêm" />
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

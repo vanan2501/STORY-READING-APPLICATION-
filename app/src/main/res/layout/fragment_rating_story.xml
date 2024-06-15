@@ -1,0 +1,63 @@
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        >
+
+        <!-- Media -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_login"
+            android:gravity="center">
+            >
+
+            <ImageView
+                android:id="@+id/imageStoryRating"
+                android:layout_width="220dp"
+                android:layout_height="300dp"
+                android:contentDescription="image"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_foreground" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title, secondary and supporting text -->
+            <TextView
+                android:id="@+id/titleStoryRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đầu buồi Trường An"
+                android:fontFamily="@font/lobster"
+                android:textStyle="bold"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/ratingBar"
+            style="@style/customRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:numStars="5" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

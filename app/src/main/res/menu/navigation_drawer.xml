@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:checkable="true"
+        android:title="@string/nav_title"
+        android:icon="@color/white"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/navHome"
+                android:checkable="true"
+                android:icon="@drawable/navigation_home"
+                android:title="@string/home_title"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/navFavorite"
+                android:checkable="true"
+                android:icon="@drawable/top_app_bar_favorite"
+                android:title="@string/favorite_title"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/navHistory"
+                android:checkable="true"
+                android:icon="@drawable/navigation_history"
+                android:title="@string/history_title"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/navCategory"
+                android:checkable="true"
+                android:icon="@drawable/navigation_category"
+                android:title="@string/category_title"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/navRating"
+                android:checkable="true"
+                android:icon="@drawable/navigation_rating"
+                android:title="@string/rating_title"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/navLogout"
+                android:checkable="true"
+                android:icon="@drawable/top_app_bar_logout"
+                android:title="@string/logout"
+                app:showAsAction="ifRoom"
+                />
+        </menu>
+    </item>
+
+</menu>

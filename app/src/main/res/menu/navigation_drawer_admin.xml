@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:checkable="true"
+        android:title="@string/nav_title"
+        android:icon="@color/white"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/navUserAdmin"
+                android:checkable="true"
+                android:icon="@drawable/user_icon"
+                android:title="@string/admin_user"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/navCategoryAdmin"
+                android:checkable="true"
+                android:icon="@drawable/category_icon"
+                android:title="@string/admin_category"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/navStoryAdmin"
+                android:checkable="true"
+                android:icon="@drawable/story_icon"
+                android:title="@string/admin_story"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/navCommentAdmin"
+                android:checkable="true"
+                android:icon="@drawable/comment_icon"
+                android:title="@string/admin_comment"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/navRatingAdmin"
+                android:checkable="true"
+                android:icon="@drawable/rating_icon"
+                android:title="@string/admin_rating"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/navLogoutAdmin"
+                android:checkable="true"
+                android:icon="@drawable/top_app_bar_logout"
+                android:title="@string/admin_logout"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+
+</menu>

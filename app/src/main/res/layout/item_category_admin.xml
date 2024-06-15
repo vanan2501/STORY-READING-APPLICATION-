@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/lobster"
+                android:gravity="center_horizontal"
+                android:text="Category"
+                android:textSize="20dp"
+
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtCategoryAdmin"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:text="default category"
+            android:fontFamily="@font/lobster"
+            android:textSize="12dp"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/background_login"
+            tools:ignore="MissingConstraints"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_login"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Trạng thái: "
+                android:fontFamily="@font/lobster"
+                android:textSize="12dp"
+                android:padding="10dp"
+                android:gravity="center_horizontal"
+                tools:ignore="MissingConstraints"
+                />
+
+            <Spinner
+                android:id="@+id/spinnerCategoryDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:entries="@array/is_delete"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

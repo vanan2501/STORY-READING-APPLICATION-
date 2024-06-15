@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "758387245283",
+    "project_id": "comic-world-f4667",
+    "storage_bucket": "comic-world-f4667.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758387245283:android:0b6fd42dc5786691a885d6",
+        "android_client_info": {
+          "package_name": "com.example.comicword"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758387245283-j0ucm54021d4umapmva8a1f3pfsfafcj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.comicword",
+            "certificate_hash": "d5688c979187289cd3f616f4fc4823b702f26baf"
+          }
+        },
+        {
+          "client_id": "758387245283-c8i2c0h3mqib99a6bsuak1b59ihu1jjm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCZ53ywzcFY8Ywonj1q3xwRaewLDUaHns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758387245283-4bo030lpk46rpsc5illsg37249735vji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

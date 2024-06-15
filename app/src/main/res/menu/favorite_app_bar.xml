@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/favoriteAppBar"
+    >
+
+    <item
+        android:id="@+id/comment"
+        android:enabled="true"
+        android:icon="@drawable/comment_icon"
+        android:title="@string/comment_text"
+        android:contentDescription="@string/comment_text"
+        android:visible="true"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/rating"
+        android:enabled="true"
+        android:icon="@drawable/rating_icon"
+        android:title="@string/rating_text"
+        android:contentDescription="@string/rating_text"
+        android:visible="true"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/top_app_bar_favorite"
+        android:title="@string/favorite"
+        android:contentDescription="@string/favorite"
+        android:titleCondensed="Yêu thích"
+        android:visible="true"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/bookmark"
+        android:icon="@drawable/bookmark_icon"
+        android:title="@string/bookmark"
+        android:contentDescription="@string/bookmark"
+        android:titleCondensed="@string/bookmark"
+        android:visible="false"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
+
